@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="40dp"
+    android:orientation="horizontal" 
+    android:layout_marginTop="8dp"
+    
+    >
+    <TextView 
+        android:id="@+id/sclUser"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text = "User"
+        android:singleLine="true"
+        />
+    <TextView
+        android:id="@+id/sclCommentBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:paddingLeft="10dp"
+        
+        />
+    <!-- 
+    android:layout_weight="1"
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        >
+        <TextView 
+            android:id = "@+id/sclLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23"
+            />
+        <TextView 
+            android:id="@+id/sclUnLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sclLikes"
+            android:text="12"
+            />
+        
+        <ImageButton 
+            android:id = "@+id/sclLikeButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/sclLikes"
+            android:src="@drawable/like_button"
+            />
+        <ImageButton 
+            android:id = "@+id/sclUnLikeButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/sclUnLikes"
+            android:src="@drawable/unlike_button"
+            />
+        
+         
+    </RelativeLayout>
+    
+    -->
+</LinearLayout>

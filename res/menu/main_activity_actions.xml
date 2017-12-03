@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/search_icon"
+          android:title="@string/action_search"
+          android:showAsAction="never"
+          />
+     
+    
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:showAsAction="never"
+          />
+    
+    <item android:id="@+id/action_home"
+        android:title="Home"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/home_icon"
+        />
+
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@drawable/user"
+        />
+    
+</menu>
+<!-- android:showAsAction="ifRoom"
+		android:showAsAction="never"
+		 -->

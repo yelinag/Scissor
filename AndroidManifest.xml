@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.opener"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/login_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".UIMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProductListView"
+            android:label="@string/ProductView" >
+        </activity>
+        <activity
+            android:name=".ProductRatingView"
+            android:label="@string/title_activity_product_rating_view" >
+        </activity>
+        <activity
+            android:name=".HistoryView"
+            android:label="@string/HistoryView" >
+        </activity>
+        <activity
+            android:name=".UserProfileView"
+            android:label="@string/title_activity_user_profile_view" >
+        </activity>
+        <activity
+            android:name=".PasswordChangeView"
+            android:label="@string/title_activity_password_change_view" >
+        </activity>
+        <activity
+            android:name=".NormalUserRegistration"
+            android:label="@string/NormalUser" >
+        </activity>
+        <activity
+            android:name=".BrandView"
+            android:label="@string/BrandView" >
+        </activity>
+        <activity
+            android:name=".BrandListView"
+            android:label="@string/BrandView" >
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name=".FMRegistration"
+            android:label="@string/title_activity_fmregistration" >
+        </activity>
+        <activity
+            android:name=".FMAddProduct"
+            android:label="@string/title_activity_fmhome_page" >
+        </activity>
+        <activity
+            android:name=".ProductView"
+            android:label="@string/title_activity_product_view" >
+        </activity>
+    </application>
+
+</manifest>

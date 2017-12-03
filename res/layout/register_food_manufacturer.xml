@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+     >
+
+    <EditText
+        android:id="@+id/emailTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:ems="10"
+        android:hint="User@email.com"
+        android:inputType="textWebEmailAddress"
+        style="@style/userInputBox"
+        />
+    <EditText
+        android:id="@+id/passwordTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Pass****"
+        android:inputType="textPassword"
+        style="@style/userInputBox"/>
+
+    <EditText
+        android:id="@+id/confirmPasswordTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Pass****"
+        android:inputType="textPassword"
+        style="@style/userInputBox"/>
+
+    <EditText
+        android:id="@+id/nameTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        style="@style/userInputBox"/>
+
+    <EditText
+        android:id="@+id/preferredIDTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Verification Code"
+        android:inputType="text"
+        style="@style/userInputBox"/>
+
+    <Button
+        android:id="@+id/registerFMButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Create Account"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        style="@style/btnStyleGenoa"
+        />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose an action" />
+    
+    <Button
+        android:id="@+id/btnGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product View"
+        android:layout_gravity="center"
+        />
+    
+    <Button
+        android:id="@+id/btnViewHist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History View"
+        android:layout_gravity="center"
+        />
+    
+    <Button
+        android:id="@+id/btnProdRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Rating View"
+        android:layout_gravity="center"
+        />
+    
+    <Button
+        android:id="@+id/btnUserProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Profile View"
+        android:layout_gravity="center"
+        />
+    
+</LinearLayout>
