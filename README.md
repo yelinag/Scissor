@@ -16,3 +16,4 @@ The incentive for consumers to use this application is to view the ratings and r
  
  **How Scissor Works**
  
+ ![How it works](https://github.com/yelinag/Scissor/blob/master/how_it_works.png?raw=true)
